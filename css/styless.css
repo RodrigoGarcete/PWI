@@ -1,3 +1,73 @@
 body {
-    background-color:aquamarine;
+ 
+    border: 2px solid powderblue;
+    margin: 50px;
+    padding: 20px;
+    background-image: url('../img/fondo_web.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 200%;
+  }
+
+p.centrado{
+    text-align: center;  
+}
+
+
+a:link {
+    color: rgb(10, 70, 10);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(187, 74, 93);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    background-color: #D6EEEE;
+}
+
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: white;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }

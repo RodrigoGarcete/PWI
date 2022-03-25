@@ -5,10 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styless.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
     <title>Basic</title>
 </head>
 <body>
-    <h1>Esto es un titulo</h1>
+    <p class="centrado"><img src="img/HMTL5.png" alt="imagen html"></p>
+    <a href="#tarea1" style="font-size:  300%;">Ir a lo hecho en tarea 1</a>
+    
+    <table>
+        <caption>Links</caption>
+        <tr>
+            <th>
+                <h2>Absolute URLs</h2>
+            </th>
+            <th>
+                <h2>Relative URLs</h2>
+            </th>
+            <th>
+                <h2>Enviame un correo!</h2>
+            </th>
+            <th>
+                <h2>El boton como link</h2>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.w3schools.com/" target="_blank">Visita la pagina W3Schools.com!</a>
+            </td>
+            <td>
+                <p><a href="img/w3schools.jpg">HTML Images</a></p>
+            </td>
+            <td>
+                <p><a href="mailto:rdgarcetep@fctunca.edu.py">Enviar email</a></p>
+            </td>
+            <td>
+                <p>Click en el boton para ver imagenL.</p>
+                <button onclick="document.location='img/img_the_scream.jpg'">HTML Tutorial</button>
+            </td>
+        </tr>
+    </table>
+<br>
+
+    <table>
+        <caption>Listas</caption>
+        <tr>
+            <td>
+                <p>Una lista HTML desordenada:</p>
+            </td>
+            <td>
+                <p>Una lista HTML ordenada:</p>
+            </td>
+            <td>
+                <p>Una lista de descripción</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul style="list-style-type:square;">
+                    <li>Cafe</li>
+                    <li>Leche</li>
+                    <li>Te</li>
+                    <li>Cocido</li>
+                </ul>
+            </td>
+            <td>
+                <ol>
+                    <li>Primer punto</li>
+                    <li>Segundo punto</li>
+                    <li>Tercer punto</li>
+                    <li>Cuarto punto</li>
+                </ol>
+            </td>
+            <td>
+                <dl>
+                    <dt>Coffee</dt>
+                    <dd>- black hot drink</dd>
+                    <dt>Milk</dt>
+                    <dd>- white cold drink</dd>
+                </dl>
+            </td>
+        </tr>
+        
+    </table>
+    
+    <br>
+
+    <p style="border: 1px solid black">Un parrafo (p) ocupa un bloque</p>
+    <div style="border: 1px solid black">Un div ocupa un bloque</div>
+    <br>
+    <span style="border: 1px solid black">Un span ocupa la anchura necesaria</span>
+
+    <br>
+    <br>
+
+    <iframe src="index.html" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+    <p><a href="https://www.Google.com" target="iframe_a">Ver Google.com</a></p>
+
+   
+
+    <h2>Click en el logo HTML para ir al curso de HTML</h2>
+    <img src="img/lenguajes.png" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="_blank" alt="HTML" title="HTML" href="https://www.w3schools.com/html/default.asp" coords="25,93,46,340,145,369,243,341,265,97,230,29,44,29" shape="poly">
+    </map>
+    <br>
+
+    <h2>Mi primer JavaScript</h2>
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+    Click en el boton para mostrar fecha y hora.</button>
+
+    <p id="demo"></p>
+    <br>
+    <br>
+
+    <article class="all-browsers">
+        <h1>Most Popular Browsers</h1>
+        <article class="browser">
+          <h2>Google Chrome</h2>
+          <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+        </article>
+        <article class="browser">
+          <h2>Mozilla Firefox</h2>
+          <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+        </article>
+        <article class="browser">
+          <h2>Microsoft Edge</h2>
+          <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+        </article>
+    </article>
+
+    <h1>Emoji 😎👽☠🤡🤠🤬🤣</h1>
+    <p style="font-size:55px">
+        🖥💻
+    </p>
+
+    
+    <h1 id="tarea1">Comienzo Tarea 1</h1>
+
     <h2>Esto es un titulo</h2>
     <h3>Esto es un titulo</h3>
 
@@ -19,9 +155,11 @@
     
     <br>
 
-    <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+    
+
+    <img src="img/w3schools.jpg" alt="W3Schools.com" width="104" height="142">
     <br>
-    <img src="w3schools.jpg" alt="Esto es el logo de w3schools">
+    <img src="img/w3schools.jpg" alt="Esto es el logo de w3schools">
     <br>
     <p style="color:rgb(4, 0, 255);">Prueba de estilo parrafo</p>
     <br>
@@ -139,7 +277,7 @@
     <p>
         La etiqueta HTML define el título de una obra creativa (por ejemplo, un libro, un poema, una canción, una película, una pintura, una escultura, etc.).&lt;cite&gt;&lt;/cite&gt;
     </p>
-    <img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+    <img src="img/img_the_scream.jpg" width="220" height="277" alt="The Scream">
     <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
 
     <p>Si su navegador admite anulación bidireccional (bdo), la siguiente línea se escribirá de derecha a izquierda (rtl):</p>
